@@ -1,0 +1,1 @@
+ocamlc str.cma -pp "refmt --print binary" -c  -o ./$2 -impl $1

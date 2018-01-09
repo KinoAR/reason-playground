@@ -1,0 +1,13 @@
+!*.*
+*.js
+*.cmi
+*.cmo
+*.out
+out
+test-world
+hello-world
+line-count
+create-rmplugin
+/_build
+_build/
+lib/
