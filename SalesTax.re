@@ -3,7 +3,7 @@ print_string("Enter Item Price: ");
 let inputToFloat = () => read_line() |> float_of_string;
 let price = inputToFloat();
 print_string("Enter State: ");
-let state = read_line() |> String.uppercase;
+let state = read_line() |> String.uppercase_ascii;
 
 let salesTax = switch(state) {
 | "CT" => 1.0635
