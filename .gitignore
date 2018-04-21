@@ -13,3 +13,4 @@ create-rmplugin
 _build/
 lib/
 sizeclc
+vowelCount
